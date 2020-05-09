@@ -1,0 +1,36 @@
+﻿<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<title>Formulario Reporte</title>
+<link href="stylesre.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400' rel='stylesheet' type='text/css'>
+</head>
+	<label>Reporte de casos de dengue</label>
+<body>
+
+<!-- formulario de reporte -->
+
+	<form action="enviare.php" method="post" class="form-reporte"> 
+		<label>Nombre y apellido: <span>*</span>
+			<input type="text" name="nombre" placeholder="Nombre y apellido" class="campo-form" required>
+		</label>
+		
+		<label>Email: <span>*</span>
+			<input type="email" name="email" placeholder="Email" class="campo-form" required>
+		</label>
+		
+		<label>Reporte:
+			<textarea name="reporte" class="campo-form">Edad:
+Barrio:
+Dir:
+Tel:</textarea>
+		</label>'
+
+		<input type="submit" value="Enviar" class="btn-form">
+	</form>
+
+<!-- formulario -->
+
+</body>
+</html>
